@@ -23,3 +23,5 @@ class Scraper
     doc.css(".post").first.css("h2").text
   end
 end
+
+Scraper.new.get_page
